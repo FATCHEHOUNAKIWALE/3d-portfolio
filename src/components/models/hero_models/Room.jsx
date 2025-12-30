@@ -44,7 +44,7 @@ export function Room(props) {
 
   return (
     <group {...props} dispose={null}>
-      <EffectComposer>
+      {/* <EffectComposer>
         <SelectiveBloom
           selection={screensRef}
           intensity={1.5} // Strength of the bloom
@@ -52,7 +52,7 @@ export function Room(props) {
           luminanceSmoothing={0.9} // Smooth transition
           blendFunction={BlendFunction.ADD} // How it blends
         />
-      </EffectComposer>
+      </EffectComposer> */}
       <mesh
         geometry={nodes._________6_blinn1_0.geometry}
         material={curtainMaterial}
